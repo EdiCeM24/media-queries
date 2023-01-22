@@ -1,0 +1,23 @@
+.box_1 {
+    background-color: brown;
+    color: aliceblue;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.box_2 {
+    background-color: hotpink;
+    color: gold;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+@media screen and (min-width: 780px) {
+    .container {
+        display: flex;
+    }
+}
+.box_1 {
+    background-color: dodgerblue;
+}
+.box_2 {
+    background-color: darkgray;
+}
